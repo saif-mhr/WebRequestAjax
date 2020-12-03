@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Api</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="file/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mx-auto text-center"><h1>Wellcome to here</h1> </div>
+            <div class="col-4 py-5">
+                <img src=""  class="shadow rounded"/>
+            </div>
+            <div class="col-8 py-5 ">
+                <table class="table table-striped border">
+                    <tbody>
+                        <tr>
+                            <td><b><p>Title</p></b></td>
+                            <td id="title"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>subtitle</b></td>
+                            <td id="subTitle"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Authors</b></td>
+                            <td id="author"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>publisher</b></td>
+                            <td id="publisher"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>language</b></td>
+                            <td id="language"></td>
+                        </tr>
+                        <tr>
+                            <td><b>isbn10</b></td>
+                            <td id="isbn10"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>pages</b></td>
+                            <td id="pages"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>year</b></td>
+                            <td id="year"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>rating</b></td>
+                            <td id="rating"></td>
+                        </tr>
+
+                        <!--<tr>
+        <td><b>desc</b></td>
+        <td id="desc"></td>
+    </tr>-->
+
+                        <tr>
+                            <td><b>price</b></td>
+                            <td id="price"></td>
+                        </tr>
+
+                        <tr>
+                            <td><b>pdf</b></td>
+                            <td id="pdf">
+                                <a href=""></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+               
+         
+               
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="file/bootstrap.min.js"></script>
+    <script src="js/booksWithApi.js"></script>
+    <!--<script>
+
+        var baseUrl = 'https://run.mocky.io/v3/';
+        var options = {
+            accepts: "application/json",
+            cache: false,
+            //error: function (error) {
+            //    console.log(error)
+            //},
+            type: "GET",
+            success: function (data) {
+                console.log(data.image);
+                $("img").attr("src", data.image);
+                $("h1").text(data.title);
+            }
+        }
+
+        $(document).ready(function () {
+            $.ajax(baseUrl + '98727879-e116-4bdc-8d00-6adc38d55257', options);
+        });
+    </script>-->
+</body>
+</html>
